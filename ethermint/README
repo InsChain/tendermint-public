@@ -1,0 +1,13 @@
+# insChain private chain
+
+This is a private chain implement basing on Ethermint.
+
+#Window 7 / 10 Installation
+
+# make install (TODO: not working properly, makefile need to be updated)
+glide install -v
+
+go install ./cmd/ethermint
+# following parameters do not work , no .git repository
+#--ldflags "-X github.com/tendermint/tendermint/version.GitCommit='git rev-parse HEAD'"
+
